@@ -14,6 +14,7 @@
 		E3871F9D288704D4002FC26C /* Custom_NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3871F9C288704D4002FC26C /* Custom_NavigationTests.swift */; };
 		E3871FA7288704D4002FC26C /* Custom_NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3871FA6288704D4002FC26C /* Custom_NavigationUITests.swift */; };
 		E3871FA9288704D4002FC26C /* Custom_NavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3871FA8288704D4002FC26C /* Custom_NavigationUITestsLaunchTests.swift */; };
+		E3D1E4592888008B006CCFFA /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D1E4582888008B006CCFFA /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E3871FA2288704D4002FC26C /* Custom NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom NavigationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3871FA6288704D4002FC26C /* Custom_NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_NavigationUITests.swift; sourceTree = "<group>"; };
 		E3871FA8288704D4002FC26C /* Custom_NavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_NavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3D1E4582888008B006CCFFA /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				E3871F8B288704D1002FC26C /* Custom_NavigationApp.swift */,
 				E3871F8D288704D1002FC26C /* ContentView.swift */,
+				E3D1E4582888008B006CCFFA /* Recipe.swift */,
 				E3871F8F288704D4002FC26C /* Assets.xcassets */,
 				E3871F91288704D4002FC26C /* Preview Content */,
 			);
@@ -206,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E3871F83288704D1002FC26C /* Build configuration list for PBXProject "Custom Navigation" */;
+			buildConfigurationList = E3871F83288704D1002FC26C /* Build configuration list for PBXProject "Custom-Navigation" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3D1E4592888008B006CCFFA /* Recipe.swift in Sources */,
 				E3871F8E288704D1002FC26C /* ContentView.swift in Sources */,
 				E3871F8C288704D1002FC26C /* Custom_NavigationApp.swift in Sources */,
 			);
@@ -540,7 +544,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E3871F83288704D1002FC26C /* Build configuration list for PBXProject "Custom Navigation" */ = {
+		E3871F83288704D1002FC26C /* Build configuration list for PBXProject "Custom-Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3871FAA288704D4002FC26C /* Debug */,
